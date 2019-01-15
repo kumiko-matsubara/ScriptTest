@@ -16,9 +16,15 @@ public class Test : MonoBehaviour {
         array[3] = 10;
         array[4] = 80;
 
-        //配列の要素を逆順に表示
-        for (int i = array.Length - 1; i>=0; i--) { 
-            Debug.Log (array[i]);
+        //配列の要素を表示
+        for (int i = 0; i < 5; i++)
+        {
+            Debug.Log(array[i]);
+        }
+    
+        //配列を逆順に表示
+        for (int i = array.Length-1; i>=0; i--) { 
+                Debug.Log(array[i]);
 
         }
 		
